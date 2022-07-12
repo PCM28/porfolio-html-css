@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+//----------------------- Header -----------------------
+a{
+    //text-decoration: none; ---> para quitar las líneas al anchor 
+    text-decoration: none;
+    color: #efefef;
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight:500;
+}
+
+i{
+    margin-right: 10px;
+}
+
+li{
+    list-style: none;
+}
+//------------------------------------------------------ 
+
+@import "./block/header";
+@import "./block/main__section__perfil";
+@import "./block/main__section__formacion";
+@import "./block/main__section__habilidades";
+@import "./block/_main__section__experiencia";
+@import "./block/main__section__hobbies";
+@import "./block/footer";

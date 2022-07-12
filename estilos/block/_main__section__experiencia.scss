@@ -1,0 +1,43 @@
+.main__section__experiencia{
+    padding: 100px 0;
+    background-image: url("/images/experiencia.jpg");
+    background-size: cover;
+    background-position:top;
+}
+
+.main__section__experiencia__div__img--img{
+    font-size: 340px;
+    border-radius: 10px;
+    background: rgba($color: white, $alpha: 0.5);
+}
+
+.main__section__experiencia__div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 350px;
+}
+
+.main__section__experiencia__div__texto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 550px;
+    padding-bottom: 200px;
+}
+
+.main__section__experiencia__div__texto--p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bolder;
+    background: rgba($color: white, $alpha: 0.5);
+    border-radius: 6px;
+    line-height: 1.5;
+}
+
+.main__section__experiencia__div__texto--h1{
+    font-size: 40px;
+    background: rgba($color: white, $alpha: 0.5);
+    border-radius: 6px;
+}
+
